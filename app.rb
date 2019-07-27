@@ -18,6 +18,9 @@ class App < Sinatra::Base
     "Goodbye, #{@user_name}."
   end
 
+  get "/muliply/:num1/:num2" do 
+  end
+
   # Code your final two routes here:
 
 end
