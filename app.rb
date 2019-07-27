@@ -21,6 +21,7 @@ class App < Sinatra::Base
   get "/muliply/:num1/:num2" do
     @num_1 = params[:num1]
     @num_2 = params[:num2]
+    puts "#{@num_1}*#{@num_2}"
   end
 
   # Code your final two routes here:
